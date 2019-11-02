@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/anjaneyulu9/ismart-split-node#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "bcrypt": "^3.0.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7"
   }
 }
