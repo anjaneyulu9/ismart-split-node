@@ -15,6 +15,7 @@ module.exports ={
         user.save()
         .then(user =>{
             console.log("user data got inserted successfully");
+            console.log("success");
             res.send({status: "success", message: "User registered successfully"});
         }).catch(err =>{
             res.status(500).send({
